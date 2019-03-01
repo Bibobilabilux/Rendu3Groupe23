@@ -1,0 +1,50 @@
+body {
+	background-color: #fae771;
+}
+
+header nav ul {
+    height: 100%;
+    display: inline-block;
+}
+
+img {
+	justify-content: flex-start;
+  	justify-content: space-between;
+
+}
+
+header nav ul li {
+    display: inline-block;
+}
+
+header nav ul li a {
+        padding: 0 20px;
+        height: 100%;
+
+        display: flex;
+        align-items: center;
+
+        color: deeppink;
+        text-decoration: none;
+        font-size: 1.2em;
+
+        transition: background-color 0.2s linear;
+    }
+header nav ul li a:hover {
+        background-color: #00000015;
+}
+
+main {
+	diplay: flex;
+}
+
+main > section{
+	width: 100%;
+	padding:20px 30px;
+}
+
+main table {
+	margin-top: 10px;
+	width: 100px;
+	border: 1px solid lightgrey;
+}
